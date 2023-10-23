@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import * as THREE from "three";
+// import * as THREE from "three";
 // import stylesheet from './format.css';
 
 // you have to import filepath
