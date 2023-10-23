@@ -1,6 +1,11 @@
 # This is my example-website
 First attempt at making a website
-It servers to be some sort of portfolio website
+It serves to be a rough draft of a portfolio website
+The program is written in ES6
+
+To run website, go to example-website cd and type:
+```node index.js```
+This is assuming that you have the node environment already setup.
 
 ## Background
 - Uses nodejs and Express framework to launch backend.
@@ -12,6 +17,8 @@ It servers to be some sort of portfolio website
 - Understand basic formatting of a website and the components
 
 ## TODO
+- Make header & footer resuable components in ES6.
+- Configure environment for usage of Babel
 - Add a gallery collection of my memories
 - Finish most tabs on website
 - Optimize website for different aspect ratios/mobile viewing
