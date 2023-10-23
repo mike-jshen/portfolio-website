@@ -1,0 +1,23 @@
+{
+  "name": "example-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "basics"
+  ],
+  "author": "mike",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
