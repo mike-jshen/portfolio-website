@@ -17,8 +17,14 @@ This is assuming that you have the node environment already setup.
 - Understand basic formatting of a website and the components
 
 ## TODO
-- Make header & footer resuable components in ES6.
+- Configure mobile menu
+- Make header & footer resuable components in ES6. (React Framework)
+    - Use react framework to modularize code.
+- ==Make test cases.==
 - Configure environment for usage of Babel
 - Add a gallery collection of my memories
 - Finish most tabs on website
 - Optimize website for different aspect ratios/mobile viewing
+
+## DONE
+- 

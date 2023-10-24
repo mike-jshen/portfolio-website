@@ -2,12 +2,21 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+
 // you have to import filepath
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 8080;
+
+// const menu = document.querySelector('#mobile-menu')
+// const menuLinks = document.querySelector('.navbar__menu')
+
+// menu.addEventListener('click', function() {
+//     menu.classList.toggle('is-active');
+//     menuLinks.classList.toggle('active');
+// });
 
 // update express server code to include route for all files 
 // the route is within the public file and will make sure to include CSS files
