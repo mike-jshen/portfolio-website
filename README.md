@@ -20,11 +20,12 @@ This is assuming that you have the node environment already setup.
 - Configure mobile menu
 - Make header & footer resuable components in ES6. (React Framework)
     - Use react framework to modularize code.
-- ==Make test cases.==
+- Make test cases.
 - Configure environment for usage of Babel
 - Add a gallery collection of my memories
 - Finish most tabs on website
 - Optimize website for different aspect ratios/mobile viewing
+- Figure out Babel library
 
 ## DONE
 - 

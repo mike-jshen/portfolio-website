@@ -3,11 +3,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRoot } from 'react-dom/client';
 // Clear the existing HTML content
-import ReactDOM from 'react-dom';
+// document.body.innerHTML = '<div id="app"></div>';
 
-if (typeof window !== 'undefined') {
-    ReactDOM.render(<MainWrapper />, document.getElementById("root"));
-}
 // Render your React component instead
 // const root = createRoot(document.getElementById('app'));
 // root.render(<h1>Hello, world</h1>);
