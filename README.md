@@ -1,4 +1,7 @@
-# This is my example-website
+# This is my Portfolio Website
+I am currently a newgrad software engineer looking for new opportunities to grow my career!
+![Alt text](20230602_233050.jpg)
+
 First attempt at making a website
 It serves to be a rough draft of a portfolio website
 The program is written in ES6
