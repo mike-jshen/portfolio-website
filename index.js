@@ -1,7 +1,13 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createRoot } from 'react-dom/client';
+// Clear the existing HTML content
+// document.body.innerHTML = '<div id="app"></div>';
 
+// Render your React component instead
+// const root = createRoot(document.getElementById('app'));
+// root.render(<h1>Hello, world</h1>);
 
 // you have to import filepath
 const __filename = fileURLToPath(import.meta.url);
@@ -9,14 +15,6 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 8080;
-
-// const menu = document.querySelector('#mobile-menu')
-// const menuLinks = document.querySelector('.navbar__menu')
-
-// menu.addEventListener('click', function() {
-//     menu.classList.toggle('is-active');
-//     menuLinks.classList.toggle('active');
-// });
 
 // update express server code to include route for all files 
 // the route is within the public file and will make sure to include CSS files

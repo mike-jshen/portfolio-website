@@ -1,4 +1,7 @@
-# This is my example-website
+# This is my Portfolio Website
+I am currently a newgrad software engineer looking for new opportunities to grow my career!
+![Alt text](20230602_233050.jpg)
+
 First attempt at making a website
 It serves to be a rough draft of a portfolio website
 The program is written in ES6
@@ -20,11 +23,12 @@ This is assuming that you have the node environment already setup.
 - Configure mobile menu
 - Make header & footer resuable components in ES6. (React Framework)
     - Use react framework to modularize code.
-- ==Make test cases.==
+- Make test cases.
 - Configure environment for usage of Babel
 - Add a gallery collection of my memories
 - Finish most tabs on website
 - Optimize website for different aspect ratios/mobile viewing
+- Figure out Babel library
 
 ## DONE
 - 
