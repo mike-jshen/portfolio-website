@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,49 +34,64 @@
             color: white;
         }
 
-        .face:nth-child(1) { /* Front */
+        .face:nth-child(1) {
+            /* Front */
             transform: translateZ(100px);
         }
-        .face:nth-child(2) { /* Back */
+
+        .face:nth-child(2) {
+            /* Back */
             transform: rotateY(180deg) translateZ(100px);
         }
-        .face:nth-child(3) { /* Right */
+
+        .face:nth-child(3) {
+            /* Right */
             transform: rotateY(90deg) translateZ(100px);
         }
-        .face:nth-child(4) { /* Left */
+
+        .face:nth-child(4) {
+            /* Left */
             transform: rotateY(-90deg) translateZ(100px);
         }
-        .face:nth-child(5) { /* Top */
+
+        .face:nth-child(5) {
+            /* Top */
             transform: rotateX(90deg) translateZ(100px);
         }
-        .face:nth-child(6) { /* Bottom */
+
+        .face:nth-child(6) {
+            /* Bottom */
             transform: rotateX(-90deg) translateZ(100px);
         }
 
         @keyframes spin {
             from {
-                transform: rotateY(0deg);
-            }
-            to {
                 transform: rotateY(360deg);
+            }
+
+            to {
+                transform: rotateY(0deg);
             }
         }
     </style>
 </head>
+
 <body>
     <div id="cube-container">
         <div id="cube">
-            <div class="face">Front</div>
-            <div class="face">Back</div>
-            <div class="face">Right</div>
-            <div class="face">Left</div>
-            <div class="face">Top</div>
-            <div class="face">Bottom</div>
+            <div class="face">welcome</div>
+            <div class="face">my</div>
+            <div class="face">to</div>
+            <div class="face">website</div>
+            <div class="face">mike</div>
+            <div class="face">shen</div>
         </div>
     </div>
-
-    <script>
-        // JavaScript code can go here if needed
-    </script>
+    <div style="float:right;">
+        <button onclick="location.href = 'about';" >
+            direct to about
+        </button>
+    </div>
 </body>
+
 </html>

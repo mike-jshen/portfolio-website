@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+        h2 {
+            color: #1d1d1f;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .project {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            background-color: #f9f9f9;
+        }
+        .contact-form button {
+            padding: 1rem 2rem;
+            background-color: #0071e3;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #f5f5f7;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm [Your Name], a [Your Profession]. I specialize in [Your Specialization] and have experience in [Your Experience]. Welcome to my portfolio!</p>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>

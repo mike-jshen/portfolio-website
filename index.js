@@ -30,7 +30,7 @@ app.use('/test_cases', express.static(path.join(__dirname, 'test_cases')));
 
 // sendFile will go here
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './public/index.html'));
+  res.sendFile(path.join(__dirname, './index.html'));
 });
 
 app.get('/upload.html', (req, res) => {
