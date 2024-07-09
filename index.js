@@ -1,7 +1,6 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { createRoot } from 'react-dom/client';
 // Clear the existing HTML content
 // document.body.innerHTML = '<div id="app"></div>';
 
