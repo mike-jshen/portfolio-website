@@ -226,6 +226,13 @@
   padding: 0 50px;
 }
 
+.main__desc{
+  display:grid;
+  background-color: #141414;
+  color: #fff;
+  font-size: 2rem;
+}
+
 .main__content h1 {
   font-size: 4rem;
   background-color: #ff8177;

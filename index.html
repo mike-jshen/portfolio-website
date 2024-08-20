@@ -1,60 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spinning Cube</title>
-    <link rel="stylesheet" href="cube.css">
-
-    <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
-        <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-        </div>
-      </div>
+  <meta charset="UTF-8">
+  <title>Mikes Home</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="../public/format.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="cube-container">
-        <div id="cube">
-            <div class="face">welcome</div>
-            <div class="face">my</div>
-            <div class="face">to</div>
-            <div class="face">website</div>
-            <div class="face">mike</div>
-            <div class="face">shen</div>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo">MIKE</a>
+      <!-- Mobile hamburger menu view -->
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="../public/upload.html" class="navbar__links">Upload</a>
+        </li>
+        <li class="navbar__item">
+          <a href="../public/projects.html" class="navbar__links">Projects</a>
+        </li>
+        <li class="navbar__item">
+          <a href="../public/mem-dump.html" class="navbar__links">Memory Dump</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="../public/abt-me.html" class="button">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <h1>WELCOME HOME</h1> -->
+
+  <!-- Hero Section -->
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Hey, my name is</h1>
+        <h2>Mike!</h2>
+        <p>Here you can find all things related to me. Enjoy your stay!</p>
+      </div>
+      <div class="main_img--container">
+        <img src="../images/image2.svg" alt="pic" id="main__img">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Me Section -->
+  <div class="services">
+    <h1 id = "#about-me">About Me</h1>
+    <p class = "main__desc">I am currently a new-grad software engineer looking for work!</p>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Me</h2>
+          <!-- shift+alt+down arrow to copy pasta -->
+          <a href="/">How it works</a>
+          <a href="/">About me</a>
+          <a href="/">My Works</a>
+          <a href="/">Plz give me a job</a>
+          <a href="/">My frien!</a>
         </div>
+        <div class="footer__link--items">
+          <h2>Socials</h2>
+          <!-- shift+alt+down arrow to copy pasta -->
+          <a href="/">Instagram</a>
+          <a href="/">Facebook</a>
+          <a href="/">Youtube</a>
+          <a href="/">Twitter</a>
+          <a href="/">Linkedin</a>
+        </div>
+      </div>
     </div>
-    <div style="float:right;">
-        <button onclick="location.href = 'about';" >
-            second page
-        </button>
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"><i class="fas faa-gem"></i>TOP</a>
+        </div>
+        <p class="website__right">MS 2023. ALL RIGHTS RESERVED</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <div style="float:right;">
-        <button onclick="location.href = '/public/index';" >
-            first page
-        </button>
+  </div>
+  <!-- mobile hamburger menu bar -->
+  <!-- is there some way to do the js method? -->
+  <script>
+    const menu = document.querySelector('#mobile-menu');
+    const menuLinks = document.querySelector('.navbar__menu');
 
-        <button onclick="location.href = '/first_3d/line';" >
-            line tutorial
-        </button>
-        
+    menu.addEventListener('click', function () {
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+    });
+  </script>
+
 </body>
-
-<body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js"></script>
-    <p>
-        test
-    </p>
-</body>
-
-<div>
-    arrow test
-</div>
 
 </html>
