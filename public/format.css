@@ -638,3 +638,8 @@
   background: #468CCF;
   background: linear-gradient(to top, #468CCF, #63B8EE);
 }
+
+/* this will add rounded edges and 50% will make it circular */
+img {
+  border-radius: 50%;
+}
