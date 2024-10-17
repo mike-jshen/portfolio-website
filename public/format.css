@@ -541,6 +541,7 @@
   text-align: left;
   width: 160px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .footer__link--items h2 {
