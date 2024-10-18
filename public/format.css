@@ -544,6 +544,26 @@
   text-align: center;
 }
 
+.footer__icons{
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* Add space between the icons */
+  height: 100px;
+}
+.footer__icon{
+  width: 40px; /* Set the size of the icons */
+  transition: transform 0.3s ease;
+}
+
+.footer__icon:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.footer__container h2 {
+  margin-bottom: 16px;
+  color: #fff;
+}
+
 .footer__link--items h2 {
   margin-bottom: 16px;
   color: #fff;
